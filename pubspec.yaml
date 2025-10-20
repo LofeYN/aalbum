@@ -1,0 +1,55 @@
+name: album_store
+description: A Flutter application for selling music albums
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Animation
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
+  like_button: ^2.0.5
+  getwidget: ^4.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_animate: ^4.5.0
+  sign_in_button: ^3.2.0
+  qr_flutter: ^4.1.0        # <-- LIBRARY QR DITAMBAHKAN DI SINI
+
+  # State Management
+  provider: ^6.1.1
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # Form Validation
+  email_validator: ^2.1.17
+
+  # Image Handling
+  cached_network_image: ^3.3.1
+
+  # Services & Integration
+  google_maps_flutter: ^2.5.3
+
+  # Utils
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
