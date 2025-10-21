@@ -75,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                     ),
                     const SizedBox(height: 30),
                     const Text(
-                      'Album Store',
+                      'Album Haven',
                       style: TextStyle(
                         fontSize: 36,
                         fontWeight: FontWeight.bold,

@@ -9,7 +9,7 @@ import 'package:album_store/screens/login_screen.dart';
 import 'package:album_store/screens/home_screen.dart';
 import 'package:album_store/screens/favorites_screen.dart';
 import 'package:album_store/screens/detail_screen.dart';
-import 'package:album_store/screens/cart_screen.dart'; // <-- Tambah import untuk cart
+import 'package:album_store/screens/cart_screen.dart'; 
 
 void main() {
   runApp(const MyApp());

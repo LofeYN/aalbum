@@ -214,9 +214,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 20),
 
-                    // ### PERUBAHAN UTAMA DI SINI ###
-
-                    // 1. Tombol Google (ukuran penuh, tidak mini)
+                    
                     SignInButton(
                       Buttons.google,
                       text: "Masuk dengan Google",

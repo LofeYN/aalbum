@@ -7,9 +7,7 @@ import 'package:album_store/providers/album_provider.dart';
 import 'package:album_store/data/album_data.dart';
 import 'package:album_store/models/product.dart';
 import 'package:like_button/like_button.dart';
-// Import getwidget sudah dihapus dari sini
 
-// Widget untuk Search Bar yang menempel (tidak ada perubahan)
 class _SliverSearchBarDelegate extends SliverPersistentHeaderDelegate {
   final Widget child;
   _SliverSearchBarDelegate({required this.child});
